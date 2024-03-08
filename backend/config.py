@@ -8,24 +8,22 @@ class Config:
     def set_default_config(self):
         self.config = {
             'configuration': {
-                'departure': 'Napoli'
+                'departure': 'Lyon'
             },
             'cities': [
                 {
-                    'name': 'Napoli',
-                    'country': 'Italy',
+                    'name': 'Lyon',
+                    'country': 'France',
                     'identifiers': {
-                        'flixbus': '40e096c1-8646-11e6-9066-549f350fcb0c',
-                        'itabus': 'NAP_T',
-                        'ryanair': 'NAP'
+                        'flixbus': '40df89c1-8646-11e6-9066-549f350fcb0c',
+                        'easyjet': 'LYS'
                     }
                 },
                 {
                     'name': 'Roma',
                     'country': 'Italy',
                     'identifiers': {
-                        'flixbus': '40de90ff-8646-11e6-9066-549f350fcb0c',
-                        'itabus': 'ROM_T'
+                        'flixbus': '40de90ff-8646-11e6-9066-549f350fcb0c'
                     }
                 }
             ]

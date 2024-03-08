@@ -1,6 +1,6 @@
 from backend import geocoding
 
-good_price = 20
+good_price = 200
 class Trip:
     date = None
     carrier = None
@@ -55,4 +55,3 @@ class Trip:
             'price': self.price,
             'formatted_price': self.format_price()
         }
-

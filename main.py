@@ -36,12 +36,12 @@ if __name__ == '__main__':
     parser.add_argument('-i', '--interface', help='Runs an HTTP server for the graphical interface (default: disabled)', action='store_true')
     parser.add_argument('-p', '--port', help='Sets the port for the HTTP server (default: 8000)', default=8000)
     parser.add_argument('-o', '--offset', help='Number of days after the current date for which journeys need to be searched (default: 3)', default=3)
-    parser.add_argument('-c', '--carriers', help='Manually select the carriers to research journeys on, separated by a comma (es. "-c itabus,flixbus", default: all)')
+    parser.add_argument('-c', '--carriers', help='Manually select the carriers to research journeys on, separated by a comma (es. "-c easyjet,flixbus", default: all)')
     parser.add_argument('-io', '--interfaceonly', help='Only runs the interface, without looking for new journeys', action='store_true')
 
     args = parser.parse_args()
 
-    print('MALATÌA <github.com/gcrbr>')
+    print('TravelCheap <github.com/gcrbr> && <github.com/maru-775>')
     
     if type(args.offset) is not int and not args.offset.isnumeric():
         print('\n(!) Invalid value provided for \'offest\'')

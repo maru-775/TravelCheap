@@ -1,54 +1,52 @@
 {
     "configuration": {
-        "departure": "Napoli",
-        "price_cap": 20,
+        "departure": "Lyon",
+        "price_cap": 200,
         "delay": 18000
     },
     "cities": [
+        {
+            "name": "Lyon",
+            "country": "France",
+            "identifiers": {
+                "flixbus": "40df89c1-8646-11e6-9066-549f350fcb0c",
+                "easyjet": "LYS"
+            }
+        },
         {
             "name": "Napoli",
             "country": "Italy",
             "identifiers": {
                 "flixbus": "40e096c1-8646-11e6-9066-549f350fcb0c",
-                "itabus": "NAP_T",
-                "ryanair": "NAP",
-                "italo": "NAC"
+                "easyjet": "NAP"
             }
         },
         {
             "name": "Roma",
             "country": "Italy",
             "identifiers": {
-                "flixbus": "40de90ff-8646-11e6-9066-549f350fcb0c",
-                "itabus": "ROM_T",
-                "italo": "RM0"
+                "flixbus": "40de90ff-8646-11e6-9066-549f350fcb0c"
             }
         },
         {
             "name": "Firenze",
             "country": "Italy",
             "identifiers": {
-                "flixbus": "40de71c6-8646-11e6-9066-549f350fcb0c",
-                "itabus": "FIR_T",
-                "italo": "SMN"
+                "flixbus": "40de71c6-8646-11e6-9066-549f350fcb0c"
             }
         },
         {
             "name": "Venezia",
             "country": "Italy",
             "identifiers": {
-                "flixbus": "40dea03b-8646-11e6-9066-549f350fcb0c",
-                "itabus": "VEN_T",
-                "italo": "VE0"
+                "flixbus": "40dea03b-8646-11e6-9066-549f350fcb0c"
             }
         },
         {
             "name": "Bari",
             "country": "Italy",
             "identifiers": {
-                "flixbus": "40df3bba-8646-11e6-9066-549f350fcb0c",
-                "itabus": "BAR_T",
-                "italo": "BAC"
+                "flixbus": "40df3bba-8646-11e6-9066-549f350fcb0c"
             }
         },
         {
@@ -62,43 +60,35 @@
             "name": "Milano",
             "country": "Italy",
             "identifiers": {
-                "flixbus": "40ddcc6e-8646-11e6-9066-549f350fcb0c",
-                "itabus": "MIL_T",
-                "italo": "MI0"
+                "flixbus": "40ddcc6e-8646-11e6-9066-549f350fcb0c"
             }
         },
         {
             "name": "Trieste",
             "country": "Italy",
             "identifiers": {
-                "flixbus": "40de9f2f-8646-11e6-9066-549f350fcb0c",
-                "italo": "TSC"
+                "flixbus": "40de9f2f-8646-11e6-9066-549f350fcb0c"
             }
         },
         {
             "name": "Aosta",
             "country": "Italy",
             "identifiers": {
-                "flixbus": "40e2b92f-8646-11e6-9066-549f350fcb0c",
-                "itabus": "AOT_T"
+                "flixbus": "40e2b92f-8646-11e6-9066-549f350fcb0c"
             }
         },
         {
             "name": "Bologna",
             "country": "Italy",
             "identifiers": {
-                "flixbus": "40df3653-8646-11e6-9066-549f350fcb0c",
-                "itabus": "BOL_T",
-                "italo": "BC_"
+                "flixbus": "40df3653-8646-11e6-9066-549f350fcb0c"
             }
         },
         {
             "name": "Torino",
             "country": "Italy",
             "identifiers": {
-                "flixbus": "40deee02-8646-11e6-9066-549f350fcb0c",
-                "itabus": "TOR_T",
-                "italo": "TO0"
+                "flixbus": "40deee02-8646-11e6-9066-549f350fcb0c"
             }
         },
         {
@@ -113,13 +103,6 @@
             "country": "Croatia",
             "identifiers": {
                 "flixbus": "40dea87d-8646-11e6-9066-549f350fcb0c"
-            }
-        },
-        {
-            "name": "Lyon",
-            "country": "France",
-            "identifiers": {
-                "flixbus": "40df89c1-8646-11e6-9066-549f350fcb0c"
             }
         },
         {
@@ -168,58 +151,49 @@
             "name": "Palermo",
             "country": "Italy",
             "identifiers": {
-                "flixbus": "40e2af46-8646-11e6-9066-549f350fcb0c",
-                "itabus": "PAM_T"
+                "flixbus": "40e2af46-8646-11e6-9066-549f350fcb0c"
             }
         },
         {
             "name": "Agrigento",
             "country": "Italy",
             "identifiers": {
-                "flixbus": "3af15103-05ad-49f1-8633-39395c4af63b",
-                "itabus": "AGR_T"
+                "flixbus": "3af15103-05ad-49f1-8633-39395c4af63b"
             }
         },
         {
             "name": "Catania",
             "country": "Italy",
             "identifiers": {
-                "flixbus": "fb17adee-7d5b-4b10-8872-e930644061f2",
-                "itabus": "CAT_T"
+                "flixbus": "fb17adee-7d5b-4b10-8872-e930644061f2"
             }
         },
         {
             "name": "Bergamo",
             "country": "Italy",
             "identifiers": {
-                "flixbus": "40e098df-8646-11e6-9066-549f350fcb0c",
-                "itabus": "BGG_T"
+                "flixbus": "40e098df-8646-11e6-9066-549f350fcb0c"
             }
         },
         {
             "name": "Mantova",
             "country": "Italy",
             "identifiers": {
-                "flixbus": "40e2b9ed-8646-11e6-9066-549f350fcb0c",
-                "itabus": "MAN_T"
+                "flixbus": "40e2b9ed-8646-11e6-9066-549f350fcb0c"
             }
         },
         {
             "name": "Verona",
             "country": "Italy",
             "identifiers": {
-                "flixbus": "40dea1ff-8646-11e6-9066-549f350fcb0c",
-                "itabus": "VER_T",
-                "italo": "VPN"
+                "flixbus": "40dea1ff-8646-11e6-9066-549f350fcb0c"
             }
         },
         {
             "name": "Reggio Emilia",
             "country": "Italy",
             "identifiers": {
-                "flixbus": "40e09993-8646-11e6-9066-549f350fcb0c",
-                "itabus": "REG_T",
-                "italo": "AAV"
+                "flixbus": "40e09993-8646-11e6-9066-549f350fcb0c"
             }
         },
         {
@@ -249,6 +223,15 @@
             "identifiers": {
                 "flixbus": "40e13a46-8646-11e6-9066-549f350fcb0c"
             }
+        },
+        {
+            "name": "London",
+            "country": "England",
+            "identifiers": {
+                "flixbus": "40e13a46-8646-11e6-9066-549f350fcb0c",
+                "easyjet": "#LONDON"
+            }
         }
+        
     ]
 }

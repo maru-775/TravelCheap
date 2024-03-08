@@ -1,4 +1,6 @@
-# Malatìa
+# TravelCheap 
+<github.com/gcrbr> && <github.com/maru-775>
+
 ![Interface](https://i.imgur.com/FtfGzuL.png)
 ![Map](https://i.imgur.com/H9J8M9f.png)
 
@@ -11,9 +13,9 @@ The results are viewable through an interface made with HTML, CSS and basic Java
 This simply displays the contents of the `data.json` file in a readable table format.
 
 ## Supported carriers
-| Ryanair            | FlixBus            | Italo | Volotea | Wizz Air | Trenitalia | Itabus | easyJet |
-|--------------------|--------------------|-------|---------|----------|------------|--------|------|
-| ✓ | ✓ | ✓ |         |          |            | ✓ | | |
+| Easyjet            | FlixBus            | Italo | Volotea | Wizz Air | Trenitalia | Itabus |
+|--------------------|--------------------|-------|---------|----------|------------|--------|
+| ✓ | ✓ |  |         |          |            |  |
 
 Note: Some carriers such as _Itabus_ and _Italo_, are only available in Italy.
 
